@@ -9,5 +9,5 @@ color_dict = {
         sum(data['Primary Fur Color'] == 'Black')
     ]
 }
-colors = pd.DataFrame(color_dict)
-colors.to_csv('colors_csv.csv')
+df = pd.DataFrame(color_dict)
+df.to_csv('colors_csv.csv')
